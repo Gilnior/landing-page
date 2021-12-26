@@ -1,0 +1,186 @@
+body {
+    margin: 0; 
+    /* I have no idea why it is necessary */
+} 
+
+.top, footer {
+    background-color: #1f2937;
+    padding:0;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.intro-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-quote {
+    font-weight: 510;
+}
+
+.sign-up-call {
+    color: white;
+    background: #3992f6;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.sign-up-call h2 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.sign-up-call .sign-up-call-description {
+    font-size: 12px;
+    color: #e5e7eb;
+}
+
+button {
+    color: white;
+    background: #3992f6;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 2px 15px;
+}
+
+footer, .header-links a {
+    color: #e5e7eb;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+}
+
+/* nightmare starts here */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.intro-text, .intro-image {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.intro-text button {
+    width: fit-content;
+    border: 2px solid #3992f6;
+}
+
+.intro-image {
+    align-items: center;
+    height: auto;
+    width: 360px;
+    color: #e5e7eb;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.intro-image  img{
+    height: auto;
+    width: 360px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.cards {
+    display: flex;
+    padding: 0 300px;
+    gap: 31px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+.card img {
+    border-radius: 13px;
+    border: 2px solid #3992f6; 
+    height: 130px;
+}
+
+.quotes {
+    padding: 90px 400px;
+}
+
+.author-quote {
+    text-align: right;
+}
+
+.sign-up-call {
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-call button {
+    height: fit-content;
+    padding: 2px 16px;
+}
+
+.header, .intro, .sign-up-call {
+    margin: 9px 150px;
+}
